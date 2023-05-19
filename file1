@@ -1,0 +1,9 @@
+$string = "Hello, world!";
+$word = "world";
+
+if (strpos($string, $word) !== false) {
+    echo "The string contains the word.";
+} else {
+    echo "The string does not contain the word.";
+}
+
